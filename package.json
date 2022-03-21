@@ -1,0 +1,26 @@
+{
+  "name": "techpay-defi-mint",
+  "version": "1.0.0",
+  "description": "TechPay DeFi implementation of Mint module.",
+  "main": "truffle-config.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechPay-io/TechPay-Mint.git"
+  },
+  "keywords": [
+    "TechPay",
+    "DeFi",
+    "Mint",
+    "Solidity"
+  ],
+  "author": "TechPay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TechPay-io/TechPay-Mint/issues"
+  },
+  "homepage": "https://github.com/TechPay-io/TechPay-Mint#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1"
+  }
+}
