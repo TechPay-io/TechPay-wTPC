@@ -6,9 +6,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 
-// fLINK implements TechPay LINK synthetic token.
-contract fLINK is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
-    // create instance of the fLINK token
-    constructor () public ERC20Detailed("fLINK", "FLINK", 18) {
+// tEUR implements TechPay EUR synthetic token.
+contract tEUR is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
+    // create instance of the tEUR token
+    constructor () public ERC20Detailed("tEUR", "TEUR", 18) {
     }
 }

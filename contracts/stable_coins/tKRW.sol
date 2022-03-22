@@ -6,9 +6,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 
-// fJPY implements TechPay JPY synthetic token.
-contract fJPY is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
-    // create instance of the fJPY token
-    constructor () public ERC20Detailed("fJPY", "FJPY", 18) {
+// tKRW implements TechPay KRW synthetic token.
+contract tKRW is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
+    // create instance of the tKRW token
+    constructor () public ERC20Detailed("tKRW", "TKRW", 18) {
     }
 }

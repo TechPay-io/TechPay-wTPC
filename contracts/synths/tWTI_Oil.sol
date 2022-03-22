@@ -6,9 +6,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 
-// fCHF implements TechPay CHF synthetic token.
-contract fCHF is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
-    // create instance of the fCHF token
-    constructor () public ERC20Detailed("fCHF", "FCHF", 18) {
+// tWTIOil implements TechPay WTI Oil synthetic token.
+contract tWTIOil is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
+    // create instance of the tWTIOil token
+    constructor () public ERC20Detailed("tWTI Oil", "TWTIOIL", 18) {
     }
 }
